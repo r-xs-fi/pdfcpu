@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "pdfcpu",
+	"meta": {
+		"description": "Container image for pdfcpu - a PDF processor written in Go supporting encryption.",
+		"website": "https://pdfcpu.io/"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/pdfcpu", "platforms": ["linux/amd64", "linux/arm64"], "tag_latest": true }
+	]
+}
