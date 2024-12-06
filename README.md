@@ -1,6 +1,7 @@
 Container image for pdfcpu - a PDF processor written in Go supporting encryption.
 
 ## Usage
+
 ```shell
 docker run --rm -it ghcr.io/r-xs-fi/pdfcpu
 ```
