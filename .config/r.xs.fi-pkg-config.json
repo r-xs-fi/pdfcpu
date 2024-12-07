@@ -1,4 +1,5 @@
 {
+	"supply_chain_descriptor": "prebuilt-binaries:https://github.com/pdfcpu/pdfcpu",
 	"not_building_for_platforms_because": {
 		"linux/arm/v7": "upstream doesn't build for this platform",
 		"linux/riscv64": "upstream doesn't build for this platform"

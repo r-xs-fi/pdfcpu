@@ -1,6 +1,4 @@
-# edge because:
-# - `riscv64` only available in there
-FROM alpine:edge AS downloader
+FROM alpine:latest AS downloader
 
 ARG TARGETOS=linux
 ARG TARGETARCH=amd64
